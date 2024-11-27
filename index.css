@@ -1,0 +1,193 @@
+
+/* Existing styles retained */
+/* GLOBAL------------
+COLOR PALETTE
+
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+
+
+html{
+    box-sizing: border-box;
+  }
+  
+  ::before,*::after{
+    box-sizing: inherit;
+  }
+  
+  .content-wrapper {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
+  
+
+  body {
+      background-color: #b6b44a; /* Optional background color */
+      background-image: url("./images/bg-coffee-shop.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      height: 100vh;
+    }
+    
+  
+  
+  
+  .home{
+      background-image: url(./images/bg-home-office-studio.jpg);
+  }
+  
+  
+  
+  a{
+    color: firebrick;
+  }
+  a:hover{
+    color: aqua;
+  }
+  .btn{
+    background: #39469a;
+    color: white;
+    text-decoration: none;
+    border-radius: 8%;
+    padding: 10px 20px;
+    
+    
+}
+
+  
+  button{
+    background-color: greenyellow;
+    color: #3c3c3c;
+    text-decoration: none ;
+  }
+  
+  
+  div{
+    background: lightblue;
+  
+  }
+  
+  
+  .home .content-wrapper{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex: 1 0 auto;
+   /* border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    border-style:double;
+    border-right-color: blue;
+    border-top-color: red;
+    border-left-color: chartreuse;
+    border-bottom-color: brown;*/
+}
+
+  
+  
+  
+  
+  
+  
+  footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  
+    color: black;
+        background-color: rgb(246, 242, 242);    
+}
+footer a{
+    color: rgb(12, 113, 113);
+}
+footer a:hover{
+    color:chocolate
+}
+.socials{
+    list-style-type: none;
+    padding: 0;
+}
+.socials li{
+    display:inline-block;
+}
+.socials img{
+    width: 32px;
+}
+
+div{
+    background-color: azure;
+    color: black;
+    background-position: center;
+}
+
+
+
+
+
+body {
+    
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url("./images/bg-coffee-shop.jpg");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 200%;
+    font-weight: 400;
+    background-color: rgba(rgb(239, 14, 14), 0.8);
+    color: rgb(0, 0, 0);
+}
+
+main {
+    flex-grow: 1;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: #fff;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 90%;
+    }
+    .socials img {
+        width: 24px;
+    }
+    .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
